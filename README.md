@@ -24,7 +24,7 @@ node enderstronghold.js
 Done! If you did everything correct, the script will return you necessary values.
 
 ## TODO
-- [] Make React.JS GUI
-- [] Record the video instruction
-- [] Make explanation.md file
-- [] Translation on Russian
+- [ ] Make React.JS GUI
+- [ ] Record the video instruction
+- [ ] Make explanation.md file
+- [ ] Translation on Russian
