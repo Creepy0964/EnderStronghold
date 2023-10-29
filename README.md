@@ -6,13 +6,14 @@ Script that helps to calculate the distance to the Ender Stronghold.
 - `Minecraft`
 
 ## Preparation
-- Download the code via Git or "Download ZIP" option on GitHub.
+- Download the code via Git or "Code -> Download ZIP" option on GitHub.
 - Git:
 ```zsh
 git clone https://github.com/creepy0964/enderstronghold
 cd enderstronghold
 node enderstronghold.js
 ```
+- If using "Code -> Download ZIP", unzip the archive, then move to the `enderstronghold` folder via `cd`, then enter `node enderstronghold.js`
 
 ## How to use
 ![image](https://github.com/Creepy0964/EnderStronghold/assets/59210160/2000e795-8eee-4fe6-ac51-4c93ea243f17)
