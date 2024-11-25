@@ -13,13 +13,13 @@ rl.question('Enter first angle: ', (answer) => {
         console.log(`Uh oh! Data type of answer isn't float. Exiting...`);
         process.exit();
     }
-    angle1 = answer;
+    answer.includes(',') ? angle1 = answer.replace(',', '.') : angle1 = answer;
     rl.question('Enter second angle: ', (answer) => {
         if(isNaN(parseFloat(answer))) {
             console.log(`Uh oh! Data type of answer isn't float. Exiting...`);
             process.exit();
         }
-        angle2 = answer;
+        answer.includes(',') ? angle2 = answer.replace(',', '.') : angle2 = answer;
         rl.question('Enter direction [-X/+X/-Z/+Z]: ', (answer) => {
             direction1 = answer;
             switch(direction1) {
